@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie - Food Delivery</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="logo">Foodie<span>.</span></div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#restaurants">Restaurants</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <div class="nav-right">
+            <button class="login-btn">Login</button>
+            <button class="cart-btn">🛒 Cart</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="tagline">FAST DELIVERY • FRESH FOOD</p>
+
+            <h1>
+                Delicious Food<br>
+                Delivered To Your <span>Doorstep.</span>
+            </h1>
+
+            <p class="description">
+                Discover the best restaurants around you
+                and enjoy your favourite meals.
+            </p>
+
+            <button class="order-btn">Order Now</button>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=700"
+                 alt="Delicious Pizza">
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories" id="menu">
+        <h2>Explore Categories</h2>
+        <p class="section-description">
+            Choose your favourite food
+        </p>
+
+        <div class="category-container">
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300" alt="Burger">
+                <h3>Burgers</h3>
+            </div>
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-157 pizza?w=300" alt="Pizza">
+                <h3>Pizza</h3>
+            </div>
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300" alt="Pizza">
+                <h3>Fast Food</h3>
+            </div>
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300" alt="Salad">
+                <h3>Healthy Food</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Popular Foods -->
+    <section class="popular" id="restaurants">
+
+        <h2>Popular Dishes</h2>
+
+        <p class="section-description">
+            Our most loved dishes
+        </p>
+
+        <div class="food-container">
+
+            <div class="food-card">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58bd?w=500" alt="Burger">
+
+                <div class="food-info">
+                    <h3>Classic Burger</h3>
+                    <p>Fresh burger with cheese</p>
+
+                    <div class="food-bottom">
+                        <span>₹149</span>
+                        <button>Add +</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500" alt="Pizza">
+
+                <div class="food-info">
+                    <h3>Cheese Pizza</h3>
+                    <p>Delicious cheesy pizza</p>
+
+                    <div class="food-bottom">
+                        <span>₹249</span>
+                        <button>Add +</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=500" alt="Noodles">
+
+                <div class="food-info">
+                    <h3>Chicken Noodles</h3>
+                    <p>Hot and spicy noodles</p>
+
+                    <div class="food-bottom">
+                        <span>₹179</span>
+                        <button>Add +</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="about">
+        <h2>Foodie.</h2>
+        <p>Good food, great mood. Delivered to your doorstep.</p>
+        <p>© 2026 Foodie. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
